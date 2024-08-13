@@ -441,23 +441,30 @@ const options = {
     
 };
 
+let path = []; // To store the path of choices
+
 function renderOptions(currentOptions) {
     const container = document.getElementById('quiz-container');
     container.innerHTML = ''; // Clear previous options
+
     for (let option in currentOptions) {
         const optionDiv = document.createElement('div');
         optionDiv.classList.add('option-div');
         optionDiv.innerText = option;
-        optionDiv.onclick = () => handleOptionClick(currentOptions[option]);
+        optionDiv.onclick = () => handleOptionClick(currentOptions[option], option);
         container.appendChild(optionDiv);
     }
 }
 
-function handleOptionClick(subOptions) {
+function handleOptionClick(subOptions, selectedOption) {
+    path.push(selectedOption); // Update path history
+
     if (Object.keys(subOptions).length > 0) {
         renderOptions(subOptions); // Render sub-options
     } else {
-        alert('You have made a selection!');
+        // Show the path in an alert
+        alert('You have made a selection! Path: ' + path.join(' > '));
+        path = []; // Reset path after final selection
         renderOptions(options); // Reset to initial options after selection
     }
 }
