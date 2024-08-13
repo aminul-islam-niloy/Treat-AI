@@ -1,77 +1,444 @@
 const options = {
     "Shopping": {
-        "Clothing": {
-            "Men": {},
-            "Women": {},
-            "Kids": {},
-            "Accessories": {}
+        "Regular": {
+           
+            "Cloth": {
+                "3 Pics": {
+                    "Indian": {},
+                    "Local Art": {},
+                    "Pakistani": {},
+                    "Formal": {},
+                },
+                "Shree": {
+                    "Black": {},
+                    "Blue": {},
+                    "White": {},
+                    "Silk": {},
+                },
+                "Skirts": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Pant": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+            },
+
+            "Shoe": {
+                "Formal": {
+                    "Office Shoe": {},
+                    "High Heal": {},
+                    "Pakistani": {},
+                    "Luffer": {},
+                },
+                "Party": {
+                    "Black": {},
+                    "Blue": {},
+                    "White": {},
+                    "Red": {},
+                },
+                "Casual": {
+                    "Luffer": {},
+                    "Converse": {},
+                    "Sports": {},
+                    "Leather": {},
+                },
+                "Scandle": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+            },
+        
+
+            "Beauty Tools": {
+                "LipStick": {
+                    "Nude": {},
+                    "Mate": {},
+                    "Regular": {},
+                    "Formal": {},
+                },
+                "Cream": {
+                    "SunCream": {},
+                    "Facewash": {},
+                    "Beauty": {},
+                    "Winter Special": {},
+                },
+                "Brashes": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Extra": {
+                    "T-shirt": {},
+                    "Inner": {},
+                    "Tie": {},
+                    "Perfume": {},
+                }
+            },
+           
+            "Jewelry": {
+                "Nose Pin": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Ear Ring": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Ring": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Braslate": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+               
+            }
         },
         "Electronics": {
             "Phones": {
-                "iPhone": {},
-                "MI": {},
-                "Samsung": {},
-                "OnePlus": {}
+                "iPhone": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "MI": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Samsung": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "OnePlus": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
             },
-            "Fans": {},
-            "Lights": {},
-            "Hotpot": {}
+            "Fans": {
+                "Charger": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Adjust": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Selling Fan": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Party Fan": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+            },
+            "Lights": {
+                "Table Light": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Decoration Light": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Room Light": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Interior Light": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+            },
+            "Accessories": {
+                "Cooker": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Blender": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Hotpot": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                },
+                "Heater": {
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+                }
+            }
         },
         "Books": {
-            "Fiction": {},
-            "Non-Fiction": {},
-            "Comics": {},
-            "Textbooks": {}
+            "Fiction": {
+                "Mystery": {},
+                "Romance": {},
+                "Sci-Fi": {},
+                "Fantasy": {}
+            },
+            "Non-Fiction": {
+                "Biography": {},
+                "Self-Help": {},
+                "History": {},
+                "Science": {}
+            },
+            "Comics": {
+                "Superhero": {},
+                "Manga": {},
+                "Graphic Novels": {},
+                "Webcomics": {}
+            },
+            "Textbooks": {
+                "Math": {},
+                "Science": {},
+                "Literature": {},
+                "History": {}
+            }
         },
-        "Shoes": {
-            "Sports": {},
-            "Casual": {},
-            "Formal": {},
-            "Boots": {}
+        "Courses": {
+            "Design": {
+                "Illustrator": {},
+                "Photoshop": {},
+                "3D Art": {},
+                "Motion Graphics": {}
+            },
+            "Development": {
+                "Web": {},
+                "Android": {},
+                "Software": {},
+                "Dev-Ops": {}
+            },
+            "Learing": {
+                "Language learning": {},
+                "Cooking": {},
+                "Driving": {},
+                "Beauty Parler": {}
+            },
+            "Self Improvment": {
+                "Time Managent": {},
+                "Money Managemnt": {},
+                "Photography": {},
+                "Drawing ": {}
+            }
         }
     },
     "Travel": {
-        "Destinations": {
-            "Beach": {},
-            "Mountain": {},
-            "City": {},
-            "Countryside": {}
+       
+            "Beach": {
+                "Inani": {},
+                "Kuyakata": {},
+                "Cox-Bazar": {},
+                "Saint Martin": {}
+            },
+            "Mountain": {
+                "Sajek": {},
+                "Himalay": {},
+                "Bandarban": {},
+                "Ramgati": {}
+            },
+            "City": {
+                "Khulna": {},
+                "Rajshahi": {},
+                "Sylete": {},
+                "Dhaka": {}
+            },
+            "Countryside": {
+                "Jaflong": {},
+                "Sundurbon": {},
+                "National Forest": {},
+                "Safari park": {}
+            }
         },
-        "Packages": {
-            "Budget": {},
-            "Luxury": {},
-            "Adventure": {},
-            "Family": {}
-        }
-    },
+          
+        
     "Restaurants": {
         "Cuisine": {
-            "Italian": {},
-            "Chinese": {},
-            "Indian": {},
-            "Mexican": {}
+            "Italian": {
+                "Pasta": {},
+                "Pizza": {},
+                "Risotto": {},
+                "Lasagna": {}
+            },
+            "Chinese": {
+                "Dumplings": {},
+                "Noodles": {},
+                "Fried Rice": {},
+                "Spring Rolls": {}
+            },
+            "Indian": {
+                "Stakes": {},
+                "Biryani": {},
+                "Naan": {},
+                "Paneer": {}
+            },
+            "Mexican": {
+                "Tacos": {},
+                "Burritos": {},
+                "Enchiladas": {},
+                "Guacamole": {}
+            }
         },
         "Dining": {
-            "Fine Dining": {},
-            "Casual Dining": {},
-            "Fast Food": {},
-            "Cafes": {}
+            "Fine Dining": {
+                "Michelin Star": {},
+                "Gourmet": {},
+                "Wine Pairing": {},
+                "Tasting Menu": {}
+            },
+            "Casual Dining": {
+                "Bistros": {},
+                "Family Restaurants": {},
+                "Grills": {},
+                "Buffets": {}
+            },
+            "Fast Food": {
+                "Burgers": {},
+                "Fried Chicken": {},
+                "Pizza": {},
+                "Fries": {}
+            },
+            "Cafes": {
+                "Coffee": {},
+                "Pastries": {},
+                "Sandwiches": {},
+                "Salads": {}
+            }
+        },
+
+        "Regular": {
+            "Bangla Hotel": {
+                "Rice and Fish": {},
+                "Beef": {},
+                "Mutton": {},
+                "Vorta and Salad": {}
+            },
+            "Streat Food": {
+                "Fuska": {},
+                "Jhalmuri": {},
+                "Chotpoti": {},
+                "Halim": {}
+            },
+            "Ice Cream": {
+                "Regular": {},
+                "Cone": {},
+                "Vanela": {},
+                "Chocolate": {}
+            },
+            "Packets Food": {
+                "Cake": {},
+                "Chips": {},
+                "Juice": {},
+                "Cool drinks": {}
+            }
+        },
+
+        "Food Cort": {
+            "Buffet": {           
+                    "Low Range": {},
+                    "Mid Range": {},
+                    "Standard Range": {},
+                    "High Range": {},
+            },
+            "Chinese": {
+                "Dumplings": {},
+                "Noodles": {},
+                "Fried Rice": {},
+                "Spring Rolls": {}
+            },
+            "Indian": {
+                "Curry": {},
+                "Biryani": {},
+                "Naan": {},
+                "Paneer": {}
+            },
+            "Mexican": {
+                "Tacos": {},
+                "Burritos": {},
+                "Enchiladas": {},
+                "Guacamole": {}
+            }
         }
     },
-    "Single Meet": {
-        "Date": {
-            "Blind Date": {},
-            "Online Date": {},
-            "Speed Date": {},
-            "Dinner Date": {}
-        },
-        "Location": {
-            "Park": {},
-            "Cafe": {},
-            "Restaurant": {},
-            "Beach": {}
-        }
+
+    "Single Meet": 
+    {
+    
+         "Blind Date": {
+                "Coffee Shop": {},
+                "Park": {},
+                "Restaurant": {},
+                "Event": {}
+            },
+            "Online Date": {
+                "Video Call": {},
+                "Messaging": {},
+                "Games": {},
+                "Watch Together": {}
+            },
+            "Speed Date": {
+                "Networking Event": {},
+                "Community Center": {},
+                "Club": {},
+                "Cafe": {}
+            },
+            "Dinner Date": {
+                "Restaurant": {},
+                "Home Cooked": {},
+                "Picnic": {},
+                "Street Food": {}
+            }
     }
+        
+    
 };
 
 function renderOptions(currentOptions) {
