@@ -112,7 +112,7 @@ const options = {
                
             }
         },
-        "Electronics": {
+        "Electronic": {
             "Phones": {
                 "iPhone": {
                     "Low Range": {},
@@ -139,7 +139,7 @@ const options = {
                     "High Range": {},
                 }
             },
-            "Fans": {
+            "Fan": {
                 "Charger": {
                     "Low Range": {},
                     "Mid Range": {},
@@ -165,7 +165,7 @@ const options = {
                     "High Range": {},
                 }
             },
-            "Lights": {
+            "Light": {
                 "Table Light": {
                     "Low Range": {},
                     "Mid Range": {},
@@ -218,7 +218,7 @@ const options = {
                 }
             }
         },
-        "Books": {
+        "Book": {
             "Fiction": {
                 "Mystery": {},
                 "Romance": {},
@@ -244,7 +244,7 @@ const options = {
                 "History": {}
             }
         },
-        "Courses": {
+        "Course": {
             "Design": {
                 "Illustrator": {},
                 "Photoshop": {},
@@ -288,7 +288,7 @@ const options = {
             "City": {
                 "Khulna": {},
                 "Rajshahi": {},
-                "Sylete": {},
+                "Sylhet": {},
                 "Dhaka": {}
             },
             "Countryside": {
@@ -300,31 +300,31 @@ const options = {
         },
           
         
-    "Restaurants": {
+    "Restaurant": {
         "Cuisine": {
             "Italian": {
                 "Pasta": {},
                 "Pizza": {},
-                "Risotto": {},
-                "Lasagna": {}
+                "Burger": {},
+                "Stack": {}
             },
             "Chinese": {
-                "Dumplings": {},
+                "Chaomin": {},
                 "Noodles": {},
                 "Fried Rice": {},
                 "Spring Rolls": {}
             },
             "Indian": {
-                "Stakes": {},
+                "Luci": {},
                 "Biryani": {},
                 "Naan": {},
-                "Paneer": {}
+                "Khicuri": {}
             },
             "Mexican": {
-                "Tacos": {},
-                "Burritos": {},
-                "Enchiladas": {},
-                "Guacamole": {}
+                "Pizza": {},
+                "Berad": {},
+                "Chicken": {},
+                "Beef": {}
             }
         },
         "Dining": {
@@ -421,7 +421,7 @@ const options = {
             "Online Date": {
                 "Video Call": {},
                 "Messaging": {},
-                "Games": {},
+                "Online Meet": {},
                 "Watch Together": {}
             },
             "Speed Date": {
