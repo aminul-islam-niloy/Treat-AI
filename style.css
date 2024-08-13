@@ -1,18 +1,10 @@
 body {
     color: white;
-<<<<<<< HEAD
     font-family: Cambria, Cochin;
 }
 
 .container {
     margin-top: 160px;
-=======
-    font-family: Arial, sans-serif;
-}
-
-.container{
-    margin-top:170px;
->>>>>>> ff440c62d80ee58179cd09efe59a23b449a71f9f
 }
 
 .transparent-bg {
@@ -21,22 +13,12 @@ body {
 }
 
 .option-div {
-<<<<<<< HEAD
     background-color: rgba(8, 222, 161, 0.3);
-=======
-    width: 200px;
-    height: 200px;
-    background-color: rgba(6, 212, 123, 0.3);
->>>>>>> ff440c62d80ee58179cd09efe59a23b449a71f9f
     border-radius: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
     margin: 10px;
-=======
-    margin: 15px;
->>>>>>> ff440c62d80ee58179cd09efe59a23b449a71f9f
     cursor: pointer;
     color: rgb(0, 0, 0);
     font-size: 18px;
